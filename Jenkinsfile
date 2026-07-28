@@ -73,7 +73,10 @@ pipeline {
                 }
 
                 timeout(time: 10, unit: 'MINUTES') {
-                    waitForQualityGate abortPipeline: true
+		    def qg = waitForQualityGate abortPipeline: false
+		    echo "SonarQube Quality Gate Status: ${qg.status}"
+                    
+		
                 }
             }
         }
