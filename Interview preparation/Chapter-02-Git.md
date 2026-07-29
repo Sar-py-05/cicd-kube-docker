@@ -1,4 +1,4 @@
-# Chapter 02 - Git & GitHub Chapter 1,2 and 3 of Git
+# Chapter 02 - Git & GitHub: Chapters 1 and 2 of Git
 ## FAANG-Level DevOps & MLOps Interview Handbook
 
 **Chapter:** Git & GitHub
